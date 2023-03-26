@@ -19,7 +19,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
-  background-color: var(--light-background-color);
+  background-color: var(--white-color);
 }
 /* Header  */
 .page-header {
@@ -30,20 +30,20 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 0.17;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--secondary-text-color);
+  color: var(--primary-color);
 }
 
 .logo-color {
-  color: var(--primary-color);
+  color: var(--secondary-text-color);
 }
 
 .nav-link {
   font-weight: 500;
   font-size: 16px;
-  line-height: 0.15;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
@@ -53,45 +53,49 @@ body {
   color: var(--accent-color);
 }
 
-.contact-email,
-.contact-phone {
-  font-weight: 400;
+.contacts {
   font-style: normal;
+}
+
+.contact-info {
+  font-weight: 400;
   font-size: 16px;
-  line-height: 0.15;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
 
-.contact-email:hover,
-.contact-email:focus {
-  color: var(--accent-color);
-}
-
-.contact-phone:hover,
-.contact-phone:focus {
+.contact-info:hover,
+.contact-info:focus {
   color: var(--accent-color);
 }
 
 /* Hero section  */
+
+.hero-section {
+  background-color: var(--secondary-text-color);
+}
+
 .hero-title {
   font-size: 56px;
-  line-height: 0.11;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white-color);
 }
 
 .hero-btn {
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 0.15;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   width: 169px;
   height: 56px;
   color: var(--white-color);
   background-color: var(--primary-color);
+  cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -103,21 +107,22 @@ body {
 .section-subtitle {
   font-weight: 500;
   font-size: 20px;
-  line-height: 0.12;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--secondary-text-color) 2;
+  color: var(--secondary-text-color);
 }
 
 .text {
   font-size: 16px;
-  line-height: 0.15;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
 
 /* Section Projects  */
 .section-title {
   font-size: 36px;
-  line-height: 0.11;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -125,8 +130,8 @@ body {
 }
 
 /* our team  */
-.section-background {
-  background-color: var(--secondary-color);
+.list-item {
+  background-color: var(--white-color);
 }
 
 /* footer  */
@@ -147,9 +152,10 @@ body {
 /* portfolio page  */
 
 .filter-btn {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 0.15;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--primary-color);
   background-color: var(--secondary-color);
