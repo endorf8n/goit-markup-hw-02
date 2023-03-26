@@ -130,6 +130,11 @@ body {
 }
 
 /* our team  */
+
+.team-section {
+  background-color: var(--secondary-color);
+}
+
 .list-item {
   background-color: var(--white-color);
 }
@@ -167,20 +172,4 @@ body {
 .filter-btn:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
-}
-
-.btn-one {
-  width: 69px;
-}
-.btn-two {
-  width: 116px;
-}
-.btn-three {
-  width: 78px;
-}
-.btn-four {
-  width: 101px;
-}
-.btn-five {
-  width: 126px;
 }
